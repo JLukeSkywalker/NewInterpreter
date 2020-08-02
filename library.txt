@@ -1,0 +1,12 @@
+com sample function to compute the factorial of a given (startNum)
+
+fun factorial, result, startNum
+    sub next, startNum, 1
+    rel test, next,>,1
+    for test, 2
+        run factorial, temp, next
+        mul result, startNum, temp
+    val isDeclared, result
+    for isDeclared, 1
+        cpy result, startNum
+ret

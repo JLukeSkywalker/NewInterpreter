@@ -1,0 +1,10 @@
+com import factorial function from other file
+imp library.txt, factorial
+
+com run the next 5 lines multiple times
+for 5, 5
+    int a,100
+    run factorial, aFact, a
+    out aFact
+    del a
+    del aFact
